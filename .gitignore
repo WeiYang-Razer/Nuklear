@@ -10,3 +10,10 @@ example/bin/*
 *.exe
 *.dSYM
 /private/
+
+# wyvrnpm-generated — do not commit
+/build/
+/wyvrn_internal/
+/wyvrn.lock
+/CMakePresets.json
+/CMakeUserPresets.json
