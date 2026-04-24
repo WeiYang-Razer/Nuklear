@@ -1,0 +1,19 @@
+{
+  "name": "Nuklear",
+  "version": "4.13.2.0",
+  "schemaVersion": 2,
+  "kind": "HeaderOnlyLib",
+  "description": "Single-header ANSI C immediate-mode GUI library",
+  "dependencies": {},
+  "build": {
+    "system": "cmake",
+    "configs": [
+      "Debug",
+      "Release",
+      "RelWithDebInfo",
+      "MinSizeRel"
+    ],
+    "configure": [],
+    "installDir": "install"
+  }
+}
